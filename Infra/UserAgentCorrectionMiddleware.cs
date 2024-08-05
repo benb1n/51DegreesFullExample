@@ -1,4 +1,4 @@
-namespace FiftyOne.DeviceDetection.Examples.Cloud.GettingStartedWeb
+namespace _51DegreesFullExample.Infra
 {
   public class UserAgentCorrectionMiddleware
   {

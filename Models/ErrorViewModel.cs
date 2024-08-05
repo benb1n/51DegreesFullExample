@@ -1,4 +1,4 @@
-namespace _51Degrees1.Models;
+namespace _51DegreesFullExample.Models;
 
 public class ErrorViewModel
 {

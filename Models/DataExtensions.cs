@@ -4,7 +4,7 @@ using FiftyOne.Pipeline.Engines.Data;
 using System;
 using System.Collections.Generic;
 
-namespace _51Degrees1;
+namespace _51DegreesFullExample;
 
 public static class DataExtensions
     {

@@ -1,9 +1,9 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FiftyOne.Pipeline.Web.Services;
-using _51Degrees1.Models;
+using _51DegreesFullExample.Models;
 
-namespace _51Degrees1.Controllers;
+namespace _51DegreesFullExample.Controllers;
 
 public class HomeController : Controller
 {

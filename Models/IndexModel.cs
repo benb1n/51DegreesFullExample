@@ -2,7 +2,7 @@
 using FiftyOne.Pipeline.CloudRequestEngine.FlowElements;
 using FiftyOne.Pipeline.Core.Data;
 
-namespace _51Degrees1;
+namespace _51DegreesFullExample;
 
 public class IndexModel
 {

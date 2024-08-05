@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>_51Degrees1</RootNamespace>
+    <RootNamespace>_51DegreesFullExample</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

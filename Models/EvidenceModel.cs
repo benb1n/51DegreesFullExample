@@ -1,4 +1,4 @@
-﻿namespace _51Degrees1;
+﻿namespace _51DegreesFullExample;
 
 public class EvidenceModel
 {

@@ -1,5 +1,5 @@
+using _51DegreesFullExample.Infra;
 using FiftyOne.DeviceDetection.Cloud.FlowElements;
-using FiftyOne.DeviceDetection.Examples.Cloud.GettingStartedWeb;
 using FiftyOne.DeviceDetection.Uach;
 using FiftyOne.Pipeline.CloudRequestEngine.FlowElements;
 
