@@ -5,14 +5,14 @@ using Microsoft.AspNetCore.Http;
 
 namespace _51DegreesFullExample.Models;
 
-public class DeviceDetectionViewModel
+public class IndexViewModel
 {
   public IHeaderDictionary ResponseHeaders { get; private set; }
 
   public string CloudEndPoint { get; set; } = "https://cloud.51degrees.com";
 
 
-  public DeviceDetectionViewModel(IHeaderDictionary responseHeaders)
+  public IndexViewModel(IHeaderDictionary responseHeaders)
   {
     ResponseHeaders = responseHeaders;
   }

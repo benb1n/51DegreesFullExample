@@ -4,7 +4,7 @@ using FiftyOne.Pipeline.Core.Data;
 
 namespace _51DegreesFullExample.Models;
 
-public class ResultsViewModel
+public class CompleteViewModel
 {
     public string HardwareVendor { get; private set; }
     public string HardwareName { get; private set; }
@@ -27,7 +27,7 @@ public class ResultsViewModel
 
     public IHeaderDictionary ResponseHeaders { get; private set; }
 
-    public ResultsViewModel(IFlowData flowData, IHeaderDictionary responseHeaders)
+    public CompleteViewModel(IFlowData flowData, IHeaderDictionary responseHeaders)
     {
         FlowData = flowData;
         ResponseHeaders = responseHeaders;

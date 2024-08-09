@@ -19,7 +19,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View(new DeviceDetectionViewModel(Response.Headers));
+        return View(new IndexViewModel(Response.Headers));
     }
 
     [HttpPost("devicedetectioncallback")]
@@ -41,7 +41,7 @@ public class HomeController : Controller
     {
         // Use the provider to get the flow data. This contains the results of device
         // detection that has been performed by the pipeline.
-        return View(new ResultsViewModel(_provider.GetFlowData(), Response.Headers));
+        return View(new CompleteViewModel(_provider.GetFlowData(), Response.Headers));
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
